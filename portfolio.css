@@ -1,0 +1,153 @@
+body{
+    background: url(cool-background-2-1.jpg) no-repeat center fixed ;
+  background-size: cover;
+}
+.head{
+  margin-top: 39px;
+    display: flex;
+    justify-content: left;
+
+}
+.fa {
+       padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.me{
+    padding: 20px;
+    font-size: 80px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+        width: 69px;
+    text-align: center;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.name{
+        font: larger Arno Pro, Tribun ADF Std, serif;
+    font-style: italic;
+}
+.my-head {
+    padding: 20px;
+   
+    width: 140px;
+    height: 140px;
+    
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+}
+.button-photo-place{
+    display: flex;
+    justify-content: space-around;
+
+}
+.text-design{
+    margin:50px 10px;
+    color: white;
+    font-size: 40px;
+     font-family: "Walsheim", sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+.image {
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 417px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00b38f;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.text-design-second {
+  margin-left: 25px;
+
+  line-height: 30px;
+    font-size: 50px;
+    margin-bottom: 25px;
+    width: 100px;   
+     color: #ff9999;
+}
+.photo-design
+{
+  width:200px;
+  border-radius:15px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
